@@ -1,19 +1,27 @@
 import React from 'react';
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import About from '../../components/About'
+import Portfolio from '../../components/Portfolio';
+import Contact from '../../components/Contact'
+import Resume from '../../components/Resume'
 
-function Nav() {
+export default function Nav() {
 
-    const  categories = [
-        { name: 'title-1', description: 'des-1' },
-        { name: 'title-2', description: 'des-2' },
-        { name: 'title-3', description: 'des-3' },
-        { name: 'title-4', description: 'des-4' }
-      ];
-
-      const handleClick = () => {
-        console.log("click handled")
-      }
 
     return (
+        <Router>
+         <Switch>
+            <Route exact path="/" component={About} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/resume" component={Resume} />
+            <Route path="*" component={About} />
+          </Switch>
+        </Router>
+      );
+
+    /*return (
         <header data-testid="header" className="flex-row px-1">
             <h2>
                 <a href="/">
@@ -23,26 +31,28 @@ function Nav() {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a href="#about" onClick={() => handleClick()}>
+                        <a href="#about" >
                             About Me
                         </a>
                     </li>
                     <li>
-                        <span onClick={() => handleClick()}>
+                    <a href="#Contact" >
                             Contact
-                        </span>
+                        </a>
                     </li>
-                    {categories.map((category) => (
-                        <li className="mx-1" key={category.name} >
-                            <span onClick={() => { handleClick(); }} >
-                                {category.name}
-                            </span>
-                        </li>
-                    ))}
+                    <li>
+                    <a href="#portfolio">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li>
+                    <a href="#resume" >
+                            Resume
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>
     );
+*/
 }
-
-export default Nav;
