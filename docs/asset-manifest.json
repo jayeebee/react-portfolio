@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d54ac5cf.chunk.css",
+    "main.js": "/static/js/main.b3bc8288.chunk.js",
+    "main.js.map": "/static/js/main.b3bc8288.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ee515dab.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ee515dab.js.map",
+    "static/js/2.a92ea87e.chunk.js": "/static/js/2.a92ea87e.chunk.js",
+    "static/js/2.a92ea87e.chunk.js.map": "/static/js/2.a92ea87e.chunk.js.map",
+    "static/js/3.ae0992e1.chunk.js": "/static/js/3.ae0992e1.chunk.js",
+    "static/js/3.ae0992e1.chunk.js.map": "/static/js/3.ae0992e1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d54ac5cf.chunk.css.map": "/static/css/main.d54ac5cf.chunk.css.map",
+    "static/js/2.a92ea87e.chunk.js.LICENSE.txt": "/static/js/2.a92ea87e.chunk.js.LICENSE.txt",
+    "static/media/budget-tracker.f21a9b77.jpg": "/static/media/budget-tracker.f21a9b77.jpg",
+    "static/media/cover-image.f95fae70.jpg": "/static/media/cover-image.f95fae70.jpg",
+    "static/media/git.3ea7d9bc.svg": "/static/media/git.3ea7d9bc.svg",
+    "static/media/linkedin.c304a414.svg": "/static/media/linkedin.c304a414.svg",
+    "static/media/readme-gen.978b591e.jpg": "/static/media/readme-gen.978b591e.jpg",
+    "static/media/riddle-me.e605d460.jpg": "/static/media/riddle-me.e605d460.jpg",
+    "static/media/robot-gladiators.3216da5e.jpg": "/static/media/robot-gladiators.3216da5e.jpg",
+    "static/media/run-buddy.ade8e7e5.jpg": "/static/media/run-buddy.ade8e7e5.jpg",
+    "static/media/twitter.fe06d572.svg": "/static/media/twitter.fe06d572.svg",
+    "static/media/www.5306596a.svg": "/static/media/www.5306596a.svg",
+    "static/media/yaynayz.1daf7182.jpg": "/static/media/yaynayz.1daf7182.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee515dab.js",
+    "static/js/2.a92ea87e.chunk.js",
+    "static/css/main.d54ac5cf.chunk.css",
+    "static/js/main.b3bc8288.chunk.js"
+  ]
+}
