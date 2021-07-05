@@ -121,5 +121,9 @@ a {
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
+  color: var(--tertiary)
 }
 
+.button-image {
+  background-image: url(https://iconmonstr.com/github-1-svg/)
+}
