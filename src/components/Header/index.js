@@ -11,22 +11,22 @@ function Header() {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a href="about" >
+                        <a href="https://jayeebee.github.io/react-portfolio/about" >
                             About Me
                         </a>
                     </li>
                     <li className="mx-2">
-                    <a href="contact" >
+                    <a href="https://jayeebee.github.io/react-portfolio/contact" >
                             Contact
                         </a>
                     </li>
                     <li className="mx-2">
-                    <a href="portfolio">
+                    <a href="https://jayeebee.github.io/react-portfolio/portfolio">
                             Portfolio
                         </a>
                     </li>
                     <li className="mx-2">
-                    <a href="resume" >
+                    <a href="https://jayeebee.github.io/react-portfolio/resume" >
                             Resume
                         </a>
                     </li>
