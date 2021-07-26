@@ -8,6 +8,7 @@ import robotGlad from "../../assets/robot-gladiators.jpg"
 import runBuddy from "../../assets/run-buddy.jpg"
 import yaynayz from "../../assets/yaynayz.jpg"
 import www from "../../assets/www.svg"
+import dokaly from "../../assets/dokaly.PNG"
 
 function Portfolio() {
     return (
@@ -74,6 +75,17 @@ function Portfolio() {
                    <Card.Title style={{color: 'var(--tertiary)'}}>YayNayz</Card.Title>
                    <a href="https://github.com/luiscabrera77/yaynayz"><Image width="35vw" src={git} alt="git button" /></a>
                    <a href="http://yaynayz.com/"><Image width="35vw" src={www} alt="www button" /></a>
+                </Card.Body>
+            </Card>
+            <br />
+            <hr />
+            <br />
+            <Card style={{ width: '18rem', backgroundColor: 'var(--secondary)' }}>
+                <Card.Body>
+                    <Image src={dokaly} alt="dokaly" />
+                   <Card.Title style={{color: 'var(--tertiary)'}}>Dokaly</Card.Title>
+                   <a href="https://github.com/luiscabrera77/dokaly21"><Image width="35vw" src={git} alt="git button" /></a>
+                   <a href="https://powerful-eyrie-95631.herokuapp.com/"><Image width="35vw" src={www} alt="www button" /></a>
                 </Card.Body>
             </Card>
         </section>
