@@ -9,7 +9,7 @@ export default function Nav() {
 
 
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
          <Switch>
             <Route exact path="/" component={About} />
             <Route path="/about" component={About} />
