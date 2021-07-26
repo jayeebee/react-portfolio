@@ -16,7 +16,7 @@ function Header() {
                         </a>
                     </li>
                     <li className="mx-2">
-                    <a href="contact" >
+                    <a href="conTact" >
                             Contact
                         </a>
                     </li>

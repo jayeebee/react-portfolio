@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import About from '../../components/About'
 import Portfolio from '../../components/Portfolio';
 import Contact from '../../components/Contact'
@@ -9,7 +9,7 @@ export default function Nav() {
 
 
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
          <Switch>
             <Route exact path="/" component={About} />
             <Route path="/about" component={About} />
@@ -18,7 +18,7 @@ export default function Nav() {
             <Route path="/resume" component={Resume} />
             <Route path="*" component={About} />
           </Switch>
-        </Router>
+        </BrowserRouter>
       );
 
     /*return (
